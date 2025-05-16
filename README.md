@@ -121,7 +121,7 @@ graph TD;
 - Dependencies: DependsOn is not fully defined
 - Tailscale operator: Getting seedbox ingress in tailnet
 - Experimenting with [Supabase](https://github.com/supabase/supabase) a firebase alternative for [Appflowy](https://appflowy.io) a selfhosted notion and [Feedbase](https://feedbase.app)
-- Longterm: replace all ingress and ingressroute (traefik) definitions to httproute with Kubernetes Gateway API 
+- Longterm: replace all ingress and ingressroute (traefik) definitions to httproute with Kubernetes Gateway API
 
 
 ---
