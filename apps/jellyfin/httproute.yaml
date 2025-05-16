@@ -10,7 +10,7 @@ spec:
       namespace: traefik
       kind: Gateway
   hostnames:
-    - jellyfin.cluster.domain
+    - jellyfin.gitops.w4jed2k.shoot.emk.fuga.cloud
   rules:
     - backendRefs:
         - name: jellyfin

@@ -8,7 +8,7 @@ spec:
   chart:
     spec:
       chart: traefik
-      version: "35.2.0"
+      version: 35.2.0
       sourceRef:
         kind: HelmRepository
         name: traefik
@@ -56,7 +56,7 @@ spec:
           namespacePolicy: All
         https-jellyfin:
           port: 8443
-          hostname: "jellyfin.cluster.domain"
+          hostname: jellyfin.gitops.w4jed2k.shoot.emk.fuga.cloud
           protocol: HTTPS
           namespacePolicy: All
           mode: Terminate
@@ -65,7 +65,7 @@ spec:
             namespace: traefik
         https-whoami:
           port: 8443
-          hostname: "whoami.cluster.domain"
+          hostname: whoami.gitops.w4jed2k.shoot.emk.fuga.cloud
           protocol: HTTPS
           namespacePolicy: All
           mode: Terminate
@@ -90,6 +90,6 @@ spec:
           sniStrict: true
     logs:
       general:
-        level: "INFO"
+        level: INFO
       access:
         enabled: true
